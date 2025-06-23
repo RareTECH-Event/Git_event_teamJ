@@ -2,16 +2,16 @@ def main():
     while True:
         print("選択してください：")
         print("1: せいぼー")
-        print("2: メンバー2の名前")
+        print("2: サンディ")
         print("3: メンバー3の名前")
         print("q: 終了")
 
         choice = input("> ")
 
         if choice == "1":
-            print("メンバー1のコメント")
+            print("忘れてたー！")
         elif choice == "2":
-            print("メンバー2のコメント")
+            print("サンディだよ！")
         elif choice == "3":
             print("メンバー3のコメント")
         elif choice == "q":
