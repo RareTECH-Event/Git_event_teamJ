@@ -1,17 +1,17 @@
 def main():
     while True:
         print("選択してください：")
-        print("1: 佐藤")
-        print("2: 大谷")
+        print("1: メンバー1の名前")
+        print("2: メンバー2の名前")
         print("3: メンバー3の名前")
         print("q: 終了")
 
         choice = input("> ")
 
         if choice == "1":
-            print("よろしく")
+            print("メンバー1のコメント")
         elif choice == "2":
-            print("こちらこそよろしく")
+            print("メンバー2のコメント")
         elif choice == "3":
             print("メンバー3のコメント")
         elif choice == "q":
